@@ -1,7 +1,6 @@
 
 *{
     box-sizing: border-box;
-
 }
 :root{
     font-size: 35px; 
@@ -9,7 +8,7 @@
 #containerfor1{
     display: flex;
     flex-direction: column;
-align-items: center;
+    align-items: center;
 }
 h1{
     font-size: 60px;
