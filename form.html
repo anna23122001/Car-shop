@@ -1,70 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style-form.css">
-    <title>Form</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./assets/css/style-form.css">
+	<title>Form</title>
 </head>
+
 <body>
-    <main>
-        <form>
-            <!-- <fieldset> -->
-        <h1>CREATE AN ACCOUNT</h1>
-        <h2>We always keep your name and email address private</h2>
-       
-            <div class="form-item">
-                <label for="name"></label>
-                <input type="text" id="name" name="name" placeholder="First name">
-            </div>
-            <div class="form-item">
-                <label for="last-name"></label>
-                <input type="text" id="last-name" name="last-name" placeholder="Last name">
-            </div>
-            <div class="form-item">
-                <label for="dname"></label>
-                <input type="text" id="dname" name="dname" placeholder="Display name">
-            </div>
-            <div class="form-item">
-                <label for="email"></label>
-                <input type="email" id="email" placeholder="Email Address">
-            </div>
-        <div class="form-item">
-            <label for="pass"></label>
-            <input type="password" id="pass" name="password" placeholder="Password">
+	<main>
+		<div id="container">
+            <h1>CREATE AN ACCOUNT</h1>
+            <h3>We always keep your name and email address private</h3>
         </div>
-        <div class="form-item">
-            <label for="pass-confirm"></label>
-            <input type="password" id="pass-confirm" name="password" placeholder="Password Confirmation">
-        </div>
-            <!-- </fieldset> -->
-    <div id="radio">
-        <div class="radio-container">
-            <div class="radio-items">
-                <input type="radio" id="buyer" name="visitor">
-                <label for="buyer">Join As a Buyer</label>
+		<form>
+            <div>
+                <fieldset id="container">
+                    <div class="form-item"> 
+                        <input type="text" id="name" name="name" placeholder="First name"> 
+                    </div>
+                    <div class="form-item"> 
+                        <input type="text" id="last-name" name="last-name" placeholder="Last name"> 
+                    </div>
+                    <div class="form-item">
+                         <input type="text" id="dname" name="dname" placeholder="Display name">
+                         </div>
+                    <div class="form-item">
+                         <input type="email" id="email" placeholder="Email Address"> 
+                        </div>
+                    <div class="form-item"> 
+                        <input type="password" id="pass" name="password" placeholder="Password"> 
+                    </div>
+                    <div class="form-item"> 
+                        <input type="password" id="pass-confirm" name="password" placeholder="Password Confirmation"> 
+                    </div>
+
+                    <div id="radio">
+                        <div class="radio-container">
+                            <div class="radio-items"> 
+                                <input type="radio" id="buyer" name="visitor"> 
+                                <label for="buyer">Join As a Buyer</label>
+                             </div>
+                            <p>I am looking for a Name, Logo for my business, brand or product</p>
+                        </div>
+                        <div class="radio-container">
+                            <div class="radio-items">
+                                 <input type="radio" id="seller" name="visitor">
+                                  <label for="seller">Join As a Creative or Marketplace Seller</label> 
+                                </div>
+                            <p>I plan to submit name ideas, Logodesigns or sell names</p>
+                        </div>
+                        <div class="radio-items2"> <input type="checkbox" id="allow"> <label for="allow">Allow Squadhelp to send marketing/promotional offers from time to time</label> </div>
+                    </div>
+                    <div id="button"> <button type="submit">Create account</button> </div>
+                </fieldset>
             </div>
-            <p>I am looking for a Name, Logo for my business, brand or product</p>
-        </div>
-         <div class="radio-container">
-                <div class="radio-items">
-                    <input type="radio" id="seller" name="visitor" val>
-                    <label for="seller">Join As a Creative or Marketplace Seller</label>
-                 </div>
-                 <p>I plan to submit name ideas, Logodesigns or sell names</p>
-        </div>
-            <div class="radio-items2">
-                <input type="checkbox" id="allow">
-                <label for="allow">Allow Squadhelp to send marketing/promotional offers from time to time</label>
-            </div>
-    </div>
-<div id="button">
-    <button type="submit">Create account</button>
-</div>
-        
-         </form>
-    </main>
- 
+           
+			
+		</form>
+	</main>
 </body>
+
 </html>
